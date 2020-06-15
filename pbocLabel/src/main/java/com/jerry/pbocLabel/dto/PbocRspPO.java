@@ -8,7 +8,6 @@ import com.alibaba.fastjson.JSONObject;
 /**
  * 人行报文解析结果包装对象
  * 
- * @author lpwang
  *
  */
 public class PbocRspPO {
