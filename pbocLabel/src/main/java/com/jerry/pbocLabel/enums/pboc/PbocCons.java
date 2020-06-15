@@ -1,0 +1,50 @@
+package com.jerry.pbocLabel.enums.pboc;
+
+public class PbocCons {
+	public static final String messageHeader = "messageHeader";
+	public static final String identity = "identity";
+	public static final String spouse = "spouse";
+	public static final String residence = "residence";
+	public static final String professional = "professional";
+	public static final String creditSummaryCue = "creditSummaryCue";
+	public static final String fellbackSum = "fellbackSum";
+	public static final String overdueSum = "overdueSum";
+	public static final String shareAndDebtSum = "shareAndDebtSum";
+	public static final String contratInfo = "contratInfo";
+	public static final String contratInfo_currAccountInfo = "currAccountInfo";
+	public static final String contratInfo_currOverdue = "currOverdue";
+	public static final String awardCreditInfo = "awardCreditInfo";
+	public static final String awardCreditInfo_repayInfo = "repayInfo";
+	public static final String contratInfo_state = "state";
+	public static final String awardCreditInfo_state = "state";
+	public static final String accFund = "accFund";
+	public static final String endowmentInsuramceDeposit = "endowmentInsuramceDeposit";
+	public static final String recordDetail = "recordDetail";
+	public static final String numAnalysis = "numAnalysis";
+	public static final String queryReq = "queryReq";
+	public static final String calculateSegment = "calculateSegment";
+	public static final String awardCreditInfo_overdueRecordlist = "overdueRecordlist";
+	public static final String contratInfo_cOverdueRecordlist = "cOverdueRecordlist";
+	public static final String awardCreditInfo_specialTradelist = "specialTradelist";
+	public static final String contratInfo_specialTradelist = "specialTradelist";
+	public static final String guaranteeSum = "guaranteeSum";
+	public static final String detailQueryReason = "detailQueryReason";
+	public static final String adminPunishment = "adminPunishment";
+	public static final String assetDisposition = "assetDisposition";
+	public static final String assurerRepay = "assurerRepay";
+	public static final String civilJudgement = "civilJudgement";
+	public static final String forceExecution = "forceExecution";
+	public static final String taxArrear = "taxArrear";
+	public static final String endowmentInsuranceDeliver = "endowmentInsuranceDeliver";
+	public static final String salvation = "salvation";
+	public static final String competence = "competence";
+	public static final String adminAward = "adminAward";
+	public static final String vehicle = "vehicle";
+	public static final String assureLoanInfo = "assureLoanInfo";
+	public static final String creditCardAssureInfo = "creditCardAssureInfo";
+	public static final String awardCreditInfo_dissentInfolist = "awardCreditInfo_dissentInfolist";
+	public static final String contratInfo_dissentInfolist = "contratInfo_dissentInfolist";
+	public static final String telPayment = "telPayment";
+	public static final String repaymentDuty = "repaymentDuty";
+
+}
