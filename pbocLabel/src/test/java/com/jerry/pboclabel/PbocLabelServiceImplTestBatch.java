@@ -30,17 +30,12 @@ public class PbocLabelServiceImplTestBatch {
 	@SuppressWarnings("resource")
 	@Test
 	public void before() throws Exception {
-		// File file = new
-		// File("C:\\Users\\lpwang\\Desktop\\20200106response\\20200106\\");
-		File file = new File("C:\\Users\\yudaobo\\Desktop\\指标测试案例\\");
+		File file = new File("");
 		pbocMap = new HashMap<String, Object>();
-		pbocMap.put(ReqParamEnum.BANKNAME.field, "秦农");
-		pbocMap.put(ReqParamEnum.MO_PHONE.field, "13020155532");
-		pbocMap.put(ReqParamEnum.BARCODE.field, "2012110102221");
-		// FileWriter fw = new
-		// FileWriter("C:\\Users\\lpwang\\Desktop\\result.csv");
-		FileWriter fw = new FileWriter(
-				"C:\\Users\\yudaobo\\Desktop\\指标测试结果\\指标批量测试结果.txt");
+		pbocMap.put(ReqParamEnum.BANKNAME.field, "");
+		pbocMap.put(ReqParamEnum.MO_PHONE.field, "");
+		pbocMap.put(ReqParamEnum.BARCODE.field, "");
+		FileWriter fw = new FileWriter("");
 		for (File file_temp : file.listFiles()) {
 			BufferedReader reader = new BufferedReader(new InputStreamReader(
 					new FileInputStream(file_temp), "utf-8"));

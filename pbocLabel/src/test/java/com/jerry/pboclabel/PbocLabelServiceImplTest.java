@@ -31,8 +31,7 @@ public class PbocLabelServiceImplTest {
 
 		BufferedReader reader = new BufferedReader(new InputStreamReader(
 				new FileInputStream(
-				// "D:\\query_platform\\平台文档\\CDA平台策略实施\\测试案例\\早期风险预警案例\\早期风险预警案例\\案例1——贷记卡当前状态为逾期M1的逾期金额-2000"),
-						"C:\\Users\\yudaobo\\Desktop\\new 3.txt"), "utf-8"));
+						""), "utf-8"));
 		String tempStr;
 		while ((tempStr = reader.readLine()) != null) {
 			sbf.append(tempStr);
@@ -40,10 +39,10 @@ public class PbocLabelServiceImplTest {
 		reader.close();
 
 		pbocMap = new HashMap<String, Object>();
-		pbocMap.put(ReqParamEnum.BANKNAME.field, "秦农");
-		pbocMap.put(ReqParamEnum.MO_PHONE.field, "13020155532");
-		pbocMap.put(ReqParamEnum.BARCODE.field, "2012110102221");
-		pbocMap.put(ReqParamEnum.CERTTYPE.field, "410922199902023816");
+		pbocMap.put(ReqParamEnum.BANKNAME.field, "");
+		pbocMap.put(ReqParamEnum.MO_PHONE.field, "");
+		pbocMap.put(ReqParamEnum.BARCODE.field, "");
+		pbocMap.put(ReqParamEnum.CERTTYPE.field, "");
 
 	}
 
